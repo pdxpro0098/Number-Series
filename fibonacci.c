@@ -7,15 +7,14 @@ void printFibonacci(int nth)
     for (int i = 2; i <= n; i++)
     {
         next = first + second;
-        printf("%d ", next);
+        printf("%d \n", next);
         first = second;
         second = next;
     }
-    printf("\n"); // Print a newline character for formatting
 }
 
 int main()
 {
-    printFibonacci(20);
+    printFibonacci(10);
     return 0;
 }
