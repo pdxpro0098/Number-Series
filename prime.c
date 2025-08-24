@@ -16,15 +16,21 @@ int isPrime(int num)
     return 1;
 }
 
-int main()
+void printPrime(int nth)
 {
-    for (int i = 0; i < 100; i++)
+
+    for (int i = 0; i < nth; i++)
     {
         if (isPrime(i))
         {
             printf("%d ", i);
         }
     }
+}
+
+int main()
+{
+    printPrime(100);
 
     return 0;
 }
