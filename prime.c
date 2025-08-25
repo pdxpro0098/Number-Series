@@ -16,7 +16,7 @@ int isPrime(int num)
     return 1;
 }
 
-void printPrime(int nth)
+void prime(int nth)
 {
 
     for (int i = 0; i < nth; i++)
@@ -30,7 +30,7 @@ void printPrime(int nth)
 
 int main()
 {
-    printPrime(100);
+    prime(100);
 
     return 0;
 }

@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-void fibonacci(int nth)
+void lucas(int nth)
 {
-    int n = nth, first = 0, second = 1, next;
+    int n = nth, first = 2, second = 1, next;
+
+    printf("%d\n", first);
+    printf("%d\n", second);
 
     for (int i = 2; i <= n; i++)
     {
@@ -15,6 +18,8 @@ void fibonacci(int nth)
 
 int main()
 {
-    fibonacci(10);
+
+    lucas(10);
+
     return 0;
 }
