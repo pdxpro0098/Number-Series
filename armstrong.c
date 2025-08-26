@@ -34,15 +34,21 @@ int isArmstrong(int N)
     return (sum == N);
 }
 
-int main()
+void printArmstrong(int nth)
 {
-    for (int i = 0; i < 10000; i++)
+    for (int i = 0; i < nth; i++)
     {
         if (isArmstrong(i))
         {
             printf("%d ", i);
         }
     }
+}
+
+int main()
+{
+
+    printArmstrong(10000);
 
     return 0;
 }

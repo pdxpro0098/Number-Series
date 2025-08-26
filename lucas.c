@@ -18,7 +18,6 @@ void lucas(int nth)
 
 int main()
 {
-
     lucas(10);
 
     return 0;
