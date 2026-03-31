@@ -10,14 +10,9 @@ Each `.c` file corresponds to one sequence or concept. Some examples:
 - `fibonacci.c` – Fibonacci sequence  
 - `prime.c` – Prime number detection  
 - `armstrong.c` – Armstrong (narcissistic) number check  
-- `triangular.c` – Triangular numbers  
-- `pell.c` – Pell numbers  
-- `catalan.c` – Catalan numbers  
-- `recaman.c` – Recaman’s sequence  
-- `factorial.c` – Factorial series  
+- `triangular.c` – Triangular numbers 
 - …and more.
 
-## ✅ Features  
-- Written entirely in C for portability and performance.  
-- Uses standard I/O for easy execution and testing.  
-- Well-isolated programs — compile and run each one individually.  
+## Features  
+- Written entirely in C.
+- Isolated programs — compile and run each one individually.  
